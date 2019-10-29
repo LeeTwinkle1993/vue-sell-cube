@@ -1,0 +1,79 @@
+
+/*实心箭头向上*/
+.icon_solid_arrow_top {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #ccc;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+/*实心箭头向下*/
+.icon_solid_arrow_bottom {
+    width: 0;
+    height: 0;
+    border-top: 10px solid #ccc;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+/*实心箭头向左*/
+.icon_solid_arrow_left {
+    width: 0;
+    height: 0;
+    border-right: 10px solid #ccc;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+/*实心箭头向右*/
+.icon_solid_arrow_right {
+    width: 0;
+    height: 0;
+    border-left: 10px solid #cccf;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+
+/*空心箭头*/
+.icon_hollow_arrow {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+/*空心箭头向上*/
+.icon_hollow_arrow_top {
+    transform: rotate(-45deg);
+}
+/*空心箭头向下*/
+.icon_hollow_arrow_bottom {
+    transform: rotate(135deg);
+}
+/*空心箭头向左*/
+.icon_hollow_arrow_left {
+    transform: rotate(-135deg);
+}
+/*空心箭头向右*/
+.icon_hollow_arrow_right {
+    transform: rotate(45deg);
+}
+
+/*关闭按钮*/
+.icon_close {
+    /* still bad on picking color */
+    background: transparent;
+    color: #fff;
+    /* make a round button */
+    border-radius: 12px;
+    /* center text */
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 1px;
+}
+/* use cross as close button */
+.icon_close::before {
+    content: "\2716";
+}
+
+
